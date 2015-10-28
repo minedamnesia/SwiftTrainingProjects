@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hownpwner/DetailViewController.swift"
-            timestampString = "467754994.266811"
+            timestampString = "467769045.448872"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "viewWillDisappear(_:)"
-            landmarkType = "5">
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "ResponderBorderStyle"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
