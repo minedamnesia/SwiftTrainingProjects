@@ -43,18 +43,30 @@ class DetailViewController: UIViewController {
         dateCreatedLabel.text = dateFormatter.stringFromDate(item.dateCreated)
     }
     
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        // "Save" changes to item
+        item.name = nameTextField.text ?? ""
+        item.serialNumber = serialTextField.text
+        
+        if let valueText = valueTextField.text,
+            value = numberFormatter.numberFromString(valueText) {
+                item.valueInDollars = value.integerValue
+        }
+        else {
+            item.valueInDollars = 0
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-
-
 }
