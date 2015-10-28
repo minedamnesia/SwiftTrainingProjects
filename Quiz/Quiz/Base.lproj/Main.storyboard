@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="QuizViewController" id="BYZ-38-t0r" customClass="QuizViewController" customModule="Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w3a-b6-QLs"/>
+                        <viewControllerLayoutGuide type="bottom" id="y12-Dw-QTx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="m4L-hh-7iW">
+                                <rect key="frame" x="143" y="33" width="33.5" height="20.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d82-RV-24j">
+                                        <rect key="frame" x="0.0" y="0.0" width="33.5" height="20.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UaQ-KK-Mat">
+                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="20.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d7M-0a-KWL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="33.5" height="20.5"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mta-SP-a7y">
+                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="20.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="????" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy1-pb-1az" userLabel="questionLabel">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="33.5" height="20.5"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="wy1-pb-1az" firstAttribute="centerX" secondItem="mta-SP-a7y" secondAttribute="centerX" id="HJ9-Mx-hKQ"/>
+                                                                    <constraint firstItem="wy1-pb-1az" firstAttribute="centerX" secondItem="mta-SP-a7y" secondAttribute="centerX" id="Jlw-2v-9CR"/>
+                                                                    <constraint firstItem="wy1-pb-1az" firstAttribute="centerX" secondItem="mta-SP-a7y" secondAttribute="centerX" id="kbY-aa-vqg"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="mta-SP-a7y" firstAttribute="centerX" secondItem="d7M-0a-KWL" secondAttribute="centerX" id="3Ma-V7-53X"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="????" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5m-zo-U4D" userLabel="answerLabel">
+                                <rect key="frame" x="143" y="198" width="33.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKp-cJ-fXl" userLabel="questionButton">
+                                <rect key="frame" x="110" y="68" width="98" height="30"/>
+                                <state key="normal" title="Next Question"/>
+                                <connections>
+                                    <action selector="onNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fY-w2-wk2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5O-4x-t0f" userLabel="answerButton">
+                                <rect key="frame" x="113" y="233" width="93" height="30"/>
+                                <state key="normal" title="Show Answer"/>
+                                <connections>
+                                    <action selector="onShowAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xd4-qv-PLs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaW-6A-YUb">
+                                <rect key="frame" x="160" y="33" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E5O-4x-t0f" firstAttribute="top" secondItem="f5m-zo-U4D" secondAttribute="bottom" constant="15" id="1cF-Jm-RZy"/>
+                            <constraint firstItem="HKp-cJ-fXl" firstAttribute="top" secondItem="m4L-hh-7iW" secondAttribute="bottom" constant="15" id="6zn-nD-wLY"/>
+                            <constraint firstItem="RaW-6A-YUb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8np-eS-qv8"/>
+                            <constraint firstItem="RaW-6A-YUb" firstAttribute="top" secondItem="w3a-b6-QLs" secondAttribute="bottom" constant="13" id="MRB-cc-Bho"/>
+                            <constraint firstItem="f5m-zo-U4D" firstAttribute="top" secondItem="HKp-cJ-fXl" secondAttribute="bottom" constant="100" id="Ngo-Qe-2V0"/>
+                            <constraint firstItem="wy1-pb-1az" firstAttribute="top" secondItem="RaW-6A-YUb" secondAttribute="top" id="SQh-jh-kET"/>
+                            <constraint firstItem="E5O-4x-t0f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TC7-BU-NcS"/>
+                            <constraint firstItem="E5O-4x-t0f" firstAttribute="centerX" secondItem="f5m-zo-U4D" secondAttribute="centerX" id="ZiP-5c-2H5"/>
+                            <constraint firstItem="m4L-hh-7iW" firstAttribute="centerX" secondItem="HKp-cJ-fXl" secondAttribute="centerX" id="aWv-84-lo0"/>
+                            <constraint firstItem="wy1-pb-1az" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eLj-L6-xOM"/>
+                            <constraint firstItem="f5m-zo-U4D" firstAttribute="centerX" secondItem="m4L-hh-7iW" secondAttribute="centerX" id="uD4-Yd-RFN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="f5m-zo-U4D" id="Liv-5o-X4B"/>
+                        <outlet property="currentQuestionLabel" destination="wy1-pb-1az" id="yiz-Zh-iyp"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="HJ9-Mx-hKQ" id="gja-Oj-mHX"/>
+                        <outlet property="nextQuestionLabel" destination="RaW-6A-YUb" id="mIQ-o6-yi7"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="8np-eS-qv8" id="SIq-KM-IQT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="338"/>
+        </scene>
+    </scenes>
+</document>
