@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A27DA8C11BE1293A00798D5A /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DA8C01BE1293A00798D5A /* ItemCell.swift */; settings = {ASSET_TAGS = (); }; };
+		A27DA8CB1BE1561900798D5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DA8CA1BE1561900798D5A /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A2D0DA901BE032D3005595DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0DA8F1BE032D3005595DB /* AppDelegate.swift */; };
 		A2D0DA951BE032D3005595DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D0DA931BE032D3005595DB /* Main.storyboard */; };
 		A2D0DA971BE032D3005595DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D0DA961BE032D3005595DB /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		A27DA8C01BE1293A00798D5A /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		A27DA8CA1BE1561900798D5A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A2D0DA8C1BE032D3005595DB /* Hownpwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hownpwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D0DA8F1BE032D3005595DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2D0DA941BE032D3005595DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A2D0DA8F1BE032D3005595DB /* AppDelegate.swift */,
+				A27DA8CA1BE1561900798D5A /* DetailViewController.swift */,
 				A2D0DABD1BE0331B005595DB /* ItemsViewController.swift */,
 				A27DA8C01BE1293A00798D5A /* ItemCell.swift */,
 				A2D0DABF1BE03404005595DB /* Item.swift */,
@@ -267,6 +270,7 @@
 				A2D0DA901BE032D3005595DB /* AppDelegate.swift in Sources */,
 				A2D0DAC01BE03404005595DB /* Item.swift in Sources */,
 				A2D0DAC21BE037A2005595DB /* ItemStore.swift in Sources */,
+				A27DA8CB1BE1561900798D5A /* DetailViewController.swift in Sources */,
 				A2D0DABE1BE0331B005595DB /* ItemsViewController.swift in Sources */,
 				A27DA8C11BE1293A00798D5A /* ItemCell.swift in Sources */,
 			);
