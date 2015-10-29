@@ -20,6 +20,7 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
     
     @IBOutlet var imageView: UIImageView!
     
+    @IBOutlet weak var trashButton: UIToolbar!
     
     @IBAction func backgroundTapped(sender: UITapGestureRecognizer) {
         view.endEditing(true)
@@ -29,6 +30,10 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
     @IBAction func takePicture(sender: UIBarButtonItem) {
         
         let imagePicker = UIImagePickerController()
+        
+        //allow image editing
+        imagePicker.allowsEditing = true
+        
         // If the device has a camera, take a picture; otherwise,
         // just pick from photo library
         if UIImagePickerController.isSourceTypeAvailable(.Camera) {
@@ -73,9 +78,10 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
     }
     
     func imagePickerController(picker: UIImagePickerController,
+            
         didFinishPickingMediaWithInfo info: [String: AnyObject]) {
             // Get picked image from info dictionary
-            let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+            let image = info[UIImagePickerControllerEditedImage] as! UIImage
             
             // Store the image in the ImageStore for the item's key
             imageStore.setImage(image, forKey:item.itemKey)
@@ -103,6 +109,9 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
         // display it on the image view
         let imageToDisplay = imageStore.imageForKey(key)
         imageView.image = imageToDisplay
+        
+        imageView.image = imageToDisplay
+    
     }
     
     override func viewWillDisappear(animated: Bool) {
