@@ -28,6 +28,15 @@ class DrawView: UIView {
         }
     }
     
+    required init?(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)
+        
+        let doubleTapRecognizer = UITapGestureRecognizer(target: self,
+            action: "doubleTap:")
+        doubleTapRecognizer.numberOfTapsRequired = 2
+        addGestureRecognizer(doubleTapRecognizer)
+    }
+    
     func strokeLine(line: Line) {
         let path = UIBezierPath()
         path.lineWidth = lineThickness
@@ -36,6 +45,15 @@ class DrawView: UIView {
         path.addLineToPoint(line.end)
         path.stroke()
     }
+    
+    func doubleTap(gestureRecognizer: UIGestureRecognizer){
+        print("Recognized a double tap")
+        
+        currentLines.removeAll(keepCapacity: false)
+        finishedLines.removeAll(keepCapacity: false)
+        setNeedsDisplay()   
+    }
+    
     override func drawRect(rect: CGRect) {
         finishedLineColor.setStroke()
         for line in finishedLines {
@@ -60,7 +78,7 @@ class DrawView: UIView {
         setNeedsDisplay()
     }
     
-    override func   touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         // Let's put in a log statement to see the order of events
         print(__FUNCTION__)
         for touch in touches {
