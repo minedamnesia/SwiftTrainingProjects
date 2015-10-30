@@ -10,26 +10,36 @@ import UIKit
 
 class PhotoInfoViewController: UIViewController {
 
+    @IBOutlet var imageView: UIImageView!
+    
+    var photo: Photo! {
+        didSet {
+            navigationItem.title = photo.title
+        }
+    }
+    var store: PhotoStore!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        store.fetchImageForPhoto(photo) {(result) -> Void in
+            switch result {
+            case let .Success(image): NSOperationQueue.mainQueue().addOperationWithBlock() {
+                    self.imageView.image = image
+                }
+            case let .Failure(error):
+                print("Error fetching image for photo: \(error)")
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "ShowTags" {
+            let navController = segue.destinationViewController as! UINavigationController
+            let tagController = navController.topViewController as! TagsViewController
+            tagController.store = store
+            tagController.photo = photo
+        }
     }
-    */
 
 }

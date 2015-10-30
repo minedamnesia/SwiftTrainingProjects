@@ -22,12 +22,7 @@ class ImageStore {
             // Write it to full URL
             data.writeToURL(imageURL, atomically: true)
         }
-        
-//        //to turn image into PNG file
-//        if let data = UIImagePNGRepresentation(image){
-//            // Write it to full URL
-//            data.writeToURL(imageURL, atomically: true)
-//        }
+
     }
     
     func imageForKey(key: String) -> UIImage? {
