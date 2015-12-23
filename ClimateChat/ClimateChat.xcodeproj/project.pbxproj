@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2EB229D1BCD9F5800DF62DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB229C1BCD9F5800DF62DC /* AppDelegate.swift */; };
+		A2EB229F1BCD9F5800DF62DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB229E1BCD9F5800DF62DC /* ViewController.swift */; };
+		A2EB22A21BCD9F5800DF62DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EB22A01BCD9F5800DF62DC /* Main.storyboard */; };
+		A2EB22A41BCD9F5800DF62DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EB22A31BCD9F5800DF62DC /* Assets.xcassets */; };
+		A2EB22A71BCD9F5800DF62DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EB22A51BCD9F5800DF62DC /* LaunchScreen.storyboard */; };
+		A2EB22B21BCD9F5800DF62DC /* ClimateChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB22B11BCD9F5800DF62DC /* ClimateChatTests.swift */; };
+		A2EB22BD1BCD9F5800DF62DC /* ClimateChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB22BC1BCD9F5800DF62DC /* ClimateChatUITests.swift */; };
+		A2EB22CD1BCDA93200DF62DC /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB22CC1BCDA93200DF62DC /* ChatCell.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2EB22AE1BCD9F5800DF62DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EB22911BCD9F5800DF62DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EB22981BCD9F5800DF62DC;
+			remoteInfo = ClimateChat;
+		};
+		A2EB22B91BCD9F5800DF62DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EB22911BCD9F5800DF62DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EB22981BCD9F5800DF62DC;
+			remoteInfo = ClimateChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2EB22991BCD9F5800DF62DC /* ClimateChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EB229C1BCD9F5800DF62DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2EB229E1BCD9F5800DF62DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2EB22A11BCD9F5800DF62DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2EB22A31BCD9F5800DF62DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2EB22A61BCD9F5800DF62DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2EB22A81BCD9F5800DF62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EB22AD1BCD9F5800DF62DC /* ClimateChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EB22B11BCD9F5800DF62DC /* ClimateChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChatTests.swift; sourceTree = "<group>"; };
+		A2EB22B31BCD9F5800DF62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EB22B81BCD9F5800DF62DC /* ClimateChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EB22BC1BCD9F5800DF62DC /* ClimateChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChatUITests.swift; sourceTree = "<group>"; };
+		A2EB22BE1BCD9F5800DF62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EB22CC1BCDA93200DF62DC /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EB22961BCD9F5800DF62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EB22AA1BCD9F5800DF62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EB22B51BCD9F5800DF62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2EB22901BCD9F5800DF62DC = {
+			isa = PBXGroup;
+			children = (
+				A2EB22CC1BCDA93200DF62DC /* ChatCell.swift */,
+				A2EB229B1BCD9F5800DF62DC /* ClimateChat */,
+				A2EB22B01BCD9F5800DF62DC /* ClimateChatTests */,
+				A2EB22BB1BCD9F5800DF62DC /* ClimateChatUITests */,
+				A2EB229A1BCD9F5800DF62DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EB229A1BCD9F5800DF62DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB22991BCD9F5800DF62DC /* ClimateChat.app */,
+				A2EB22AD1BCD9F5800DF62DC /* ClimateChatTests.xctest */,
+				A2EB22B81BCD9F5800DF62DC /* ClimateChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EB229B1BCD9F5800DF62DC /* ClimateChat */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB229C1BCD9F5800DF62DC /* AppDelegate.swift */,
+				A2EB229E1BCD9F5800DF62DC /* ViewController.swift */,
+				A2EB22A01BCD9F5800DF62DC /* Main.storyboard */,
+				A2EB22A31BCD9F5800DF62DC /* Assets.xcassets */,
+				A2EB22A51BCD9F5800DF62DC /* LaunchScreen.storyboard */,
+				A2EB22A81BCD9F5800DF62DC /* Info.plist */,
+			);
+			path = ClimateChat;
+			sourceTree = "<group>";
+		};
+		A2EB22B01BCD9F5800DF62DC /* ClimateChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB22B11BCD9F5800DF62DC /* ClimateChatTests.swift */,
+				A2EB22B31BCD9F5800DF62DC /* Info.plist */,
+			);
+			path = ClimateChatTests;
+			sourceTree = "<group>";
+		};
+		A2EB22BB1BCD9F5800DF62DC /* ClimateChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB22BC1BCD9F5800DF62DC /* ClimateChatUITests.swift */,
+				A2EB22BE1BCD9F5800DF62DC /* Info.plist */,
+			);
+			path = ClimateChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EB22981BCD9F5800DF62DC /* ClimateChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EB22C11BCD9F5800DF62DC /* Build configuration list for PBXNativeTarget "ClimateChat" */;
+			buildPhases = (
+				A2EB22951BCD9F5800DF62DC /* Sources */,
+				A2EB22961BCD9F5800DF62DC /* Frameworks */,
+				A2EB22971BCD9F5800DF62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimateChat;
+			productName = ClimateChat;
+			productReference = A2EB22991BCD9F5800DF62DC /* ClimateChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2EB22AC1BCD9F5800DF62DC /* ClimateChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EB22C41BCD9F5800DF62DC /* Build configuration list for PBXNativeTarget "ClimateChatTests" */;
+			buildPhases = (
+				A2EB22A91BCD9F5800DF62DC /* Sources */,
+				A2EB22AA1BCD9F5800DF62DC /* Frameworks */,
+				A2EB22AB1BCD9F5800DF62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EB22AF1BCD9F5800DF62DC /* PBXTargetDependency */,
+			);
+			name = ClimateChatTests;
+			productName = ClimateChatTests;
+			productReference = A2EB22AD1BCD9F5800DF62DC /* ClimateChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2EB22B71BCD9F5800DF62DC /* ClimateChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EB22C71BCD9F5800DF62DC /* Build configuration list for PBXNativeTarget "ClimateChatUITests" */;
+			buildPhases = (
+				A2EB22B41BCD9F5800DF62DC /* Sources */,
+				A2EB22B51BCD9F5800DF62DC /* Frameworks */,
+				A2EB22B61BCD9F5800DF62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EB22BA1BCD9F5800DF62DC /* PBXTargetDependency */,
+			);
+			name = ClimateChatUITests;
+			productName = ClimateChatUITests;
+			productReference = A2EB22B81BCD9F5800DF62DC /* ClimateChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EB22911BCD9F5800DF62DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kelly Yamamoto";
+				TargetAttributes = {
+					A2EB22981BCD9F5800DF62DC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A2EB22AC1BCD9F5800DF62DC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A2EB22981BCD9F5800DF62DC;
+					};
+					A2EB22B71BCD9F5800DF62DC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A2EB22981BCD9F5800DF62DC;
+					};
+				};
+			};
+			buildConfigurationList = A2EB22941BCD9F5800DF62DC /* Build configuration list for PBXProject "ClimateChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EB22901BCD9F5800DF62DC;
+			productRefGroup = A2EB229A1BCD9F5800DF62DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EB22981BCD9F5800DF62DC /* ClimateChat */,
+				A2EB22AC1BCD9F5800DF62DC /* ClimateChatTests */,
+				A2EB22B71BCD9F5800DF62DC /* ClimateChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EB22971BCD9F5800DF62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EB22A71BCD9F5800DF62DC /* LaunchScreen.storyboard in Resources */,
+				A2EB22A41BCD9F5800DF62DC /* Assets.xcassets in Resources */,
+				A2EB22A21BCD9F5800DF62DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EB22AB1BCD9F5800DF62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EB22B61BCD9F5800DF62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EB22951BCD9F5800DF62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EB229F1BCD9F5800DF62DC /* ViewController.swift in Sources */,
+				A2EB229D1BCD9F5800DF62DC /* AppDelegate.swift in Sources */,
+				A2EB22CD1BCDA93200DF62DC /* ChatCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EB22A91BCD9F5800DF62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EB22B21BCD9F5800DF62DC /* ClimateChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EB22B41BCD9F5800DF62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EB22BD1BCD9F5800DF62DC /* ClimateChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2EB22AF1BCD9F5800DF62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EB22981BCD9F5800DF62DC /* ClimateChat */;
+			targetProxy = A2EB22AE1BCD9F5800DF62DC /* PBXContainerItemProxy */;
+		};
+		A2EB22BA1BCD9F5800DF62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EB22981BCD9F5800DF62DC /* ClimateChat */;
+			targetProxy = A2EB22B91BCD9F5800DF62DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2EB22A01BCD9F5800DF62DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EB22A11BCD9F5800DF62DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2EB22A51BCD9F5800DF62DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EB22A61BCD9F5800DF62DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EB22BF1BCD9F5800DF62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2EB22C01BCD9F5800DF62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2EB22C21BCD9F5800DF62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimateChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.ClimateChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2EB22C31BCD9F5800DF62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimateChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.ClimateChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2EB22C51BCD9F5800DF62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClimateChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.ClimateChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimateChat.app/ClimateChat";
+			};
+			name = Debug;
+		};
+		A2EB22C61BCD9F5800DF62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClimateChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.ClimateChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimateChat.app/ClimateChat";
+			};
+			name = Release;
+		};
+		A2EB22C81BCD9F5800DF62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClimateChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.ClimateChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClimateChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2EB22C91BCD9F5800DF62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClimateChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.ClimateChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClimateChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EB22941BCD9F5800DF62DC /* Build configuration list for PBXProject "ClimateChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EB22BF1BCD9F5800DF62DC /* Debug */,
+				A2EB22C01BCD9F5800DF62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EB22C11BCD9F5800DF62DC /* Build configuration list for PBXNativeTarget "ClimateChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EB22C21BCD9F5800DF62DC /* Debug */,
+				A2EB22C31BCD9F5800DF62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2EB22C41BCD9F5800DF62DC /* Build configuration list for PBXNativeTarget "ClimateChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EB22C51BCD9F5800DF62DC /* Debug */,
+				A2EB22C61BCD9F5800DF62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2EB22C71BCD9F5800DF62DC /* Build configuration list for PBXNativeTarget "ClimateChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EB22C81BCD9F5800DF62DC /* Debug */,
+				A2EB22C91BCD9F5800DF62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EB22911BCD9F5800DF62DC /* Project object */;
+}
