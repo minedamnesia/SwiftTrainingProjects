@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A9A12D1BF500BB00F0527E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A12C1BF500BB00F0527E /* AppDelegate.swift */; };
+		A2A9A12F1BF500BB00F0527E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A12E1BF500BB00F0527E /* ViewController.swift */; };
+		A2A9A1321BF500BB00F0527E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9A1301BF500BB00F0527E /* Main.storyboard */; };
+		A2A9A1341BF500BB00F0527E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A9A1331BF500BB00F0527E /* Assets.xcassets */; };
+		A2A9A1371BF500BB00F0527E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9A1351BF500BB00F0527E /* LaunchScreen.storyboard */; };
+		A2A9A1421BF500BB00F0527E /* DataInboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A1411BF500BB00F0527E /* DataInboxTests.swift */; };
+		A2A9A14D1BF500BB00F0527E /* DataInboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A14C1BF500BB00F0527E /* DataInboxUITests.swift */; };
+		A2A9A15B1BF5011C00F0527E /* DataInboxTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A15A1BF5011C00F0527E /* DataInboxTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A9A13E1BF500BB00F0527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A9A1211BF500BB00F0527E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A9A1281BF500BB00F0527E;
+			remoteInfo = DataInbox;
+		};
+		A2A9A1491BF500BB00F0527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A9A1211BF500BB00F0527E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A9A1281BF500BB00F0527E;
+			remoteInfo = DataInbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A9A1291BF500BB00F0527E /* DataInbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataInbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9A12C1BF500BB00F0527E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2A9A12E1BF500BB00F0527E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2A9A1311BF500BB00F0527E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A9A1331BF500BB00F0527E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2A9A1361BF500BB00F0527E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2A9A1381BF500BB00F0527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9A13D1BF500BB00F0527E /* DataInboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataInboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9A1411BF500BB00F0527E /* DataInboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInboxTests.swift; sourceTree = "<group>"; };
+		A2A9A1431BF500BB00F0527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9A1481BF500BB00F0527E /* DataInboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataInboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9A14C1BF500BB00F0527E /* DataInboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInboxUITests.swift; sourceTree = "<group>"; };
+		A2A9A14E1BF500BB00F0527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9A15A1BF5011C00F0527E /* DataInboxTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInboxTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A9A1261BF500BB00F0527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A13A1BF500BB00F0527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A1451BF500BB00F0527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A9A1201BF500BB00F0527E = {
+			isa = PBXGroup;
+			children = (
+				A2A9A12B1BF500BB00F0527E /* DataInbox */,
+				A2A9A1401BF500BB00F0527E /* DataInboxTests */,
+				A2A9A14B1BF500BB00F0527E /* DataInboxUITests */,
+				A2A9A12A1BF500BB00F0527E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A9A12A1BF500BB00F0527E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A1291BF500BB00F0527E /* DataInbox.app */,
+				A2A9A13D1BF500BB00F0527E /* DataInboxTests.xctest */,
+				A2A9A1481BF500BB00F0527E /* DataInboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A9A12B1BF500BB00F0527E /* DataInbox */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A12C1BF500BB00F0527E /* AppDelegate.swift */,
+				A2A9A12E1BF500BB00F0527E /* ViewController.swift */,
+				A2A9A15A1BF5011C00F0527E /* DataInboxTabBarController.swift */,
+				A2A9A1301BF500BB00F0527E /* Main.storyboard */,
+				A2A9A1331BF500BB00F0527E /* Assets.xcassets */,
+				A2A9A1351BF500BB00F0527E /* LaunchScreen.storyboard */,
+				A2A9A1381BF500BB00F0527E /* Info.plist */,
+			);
+			path = DataInbox;
+			sourceTree = "<group>";
+		};
+		A2A9A1401BF500BB00F0527E /* DataInboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A1411BF500BB00F0527E /* DataInboxTests.swift */,
+				A2A9A1431BF500BB00F0527E /* Info.plist */,
+			);
+			path = DataInboxTests;
+			sourceTree = "<group>";
+		};
+		A2A9A14B1BF500BB00F0527E /* DataInboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A14C1BF500BB00F0527E /* DataInboxUITests.swift */,
+				A2A9A14E1BF500BB00F0527E /* Info.plist */,
+			);
+			path = DataInboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A9A1281BF500BB00F0527E /* DataInbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A1511BF500BB00F0527E /* Build configuration list for PBXNativeTarget "DataInbox" */;
+			buildPhases = (
+				A2A9A1251BF500BB00F0527E /* Sources */,
+				A2A9A1261BF500BB00F0527E /* Frameworks */,
+				A2A9A1271BF500BB00F0527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataInbox;
+			productName = DataInbox;
+			productReference = A2A9A1291BF500BB00F0527E /* DataInbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A9A13C1BF500BB00F0527E /* DataInboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A1541BF500BB00F0527E /* Build configuration list for PBXNativeTarget "DataInboxTests" */;
+			buildPhases = (
+				A2A9A1391BF500BB00F0527E /* Sources */,
+				A2A9A13A1BF500BB00F0527E /* Frameworks */,
+				A2A9A13B1BF500BB00F0527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A9A13F1BF500BB00F0527E /* PBXTargetDependency */,
+			);
+			name = DataInboxTests;
+			productName = DataInboxTests;
+			productReference = A2A9A13D1BF500BB00F0527E /* DataInboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A9A1471BF500BB00F0527E /* DataInboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A1571BF500BB00F0527E /* Build configuration list for PBXNativeTarget "DataInboxUITests" */;
+			buildPhases = (
+				A2A9A1441BF500BB00F0527E /* Sources */,
+				A2A9A1451BF500BB00F0527E /* Frameworks */,
+				A2A9A1461BF500BB00F0527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A9A14A1BF500BB00F0527E /* PBXTargetDependency */,
+			);
+			name = DataInboxUITests;
+			productName = DataInboxUITests;
+			productReference = A2A9A1481BF500BB00F0527E /* DataInboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A9A1211BF500BB00F0527E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kelly Yamamoto";
+				TargetAttributes = {
+					A2A9A1281BF500BB00F0527E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A2A9A13C1BF500BB00F0527E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A2A9A1281BF500BB00F0527E;
+					};
+					A2A9A1471BF500BB00F0527E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A2A9A1281BF500BB00F0527E;
+					};
+				};
+			};
+			buildConfigurationList = A2A9A1241BF500BB00F0527E /* Build configuration list for PBXProject "DataInbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A9A1201BF500BB00F0527E;
+			productRefGroup = A2A9A12A1BF500BB00F0527E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A9A1281BF500BB00F0527E /* DataInbox */,
+				A2A9A13C1BF500BB00F0527E /* DataInboxTests */,
+				A2A9A1471BF500BB00F0527E /* DataInboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A9A1271BF500BB00F0527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A1371BF500BB00F0527E /* LaunchScreen.storyboard in Resources */,
+				A2A9A1341BF500BB00F0527E /* Assets.xcassets in Resources */,
+				A2A9A1321BF500BB00F0527E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A13B1BF500BB00F0527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A1461BF500BB00F0527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A9A1251BF500BB00F0527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A12F1BF500BB00F0527E /* ViewController.swift in Sources */,
+				A2A9A12D1BF500BB00F0527E /* AppDelegate.swift in Sources */,
+				A2A9A15B1BF5011C00F0527E /* DataInboxTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A1391BF500BB00F0527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A1421BF500BB00F0527E /* DataInboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A1441BF500BB00F0527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A14D1BF500BB00F0527E /* DataInboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A9A13F1BF500BB00F0527E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A9A1281BF500BB00F0527E /* DataInbox */;
+			targetProxy = A2A9A13E1BF500BB00F0527E /* PBXContainerItemProxy */;
+		};
+		A2A9A14A1BF500BB00F0527E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A9A1281BF500BB00F0527E /* DataInbox */;
+			targetProxy = A2A9A1491BF500BB00F0527E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A9A1301BF500BB00F0527E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A9A1311BF500BB00F0527E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2A9A1351BF500BB00F0527E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A9A1361BF500BB00F0527E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A9A14F1BF500BB00F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2A9A1501BF500BB00F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A9A1521BF500BB00F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataInbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.DataInbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2A9A1531BF500BB00F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataInbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.DataInbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2A9A1551BF500BB00F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataInboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.DataInboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataInbox.app/DataInbox";
+			};
+			name = Debug;
+		};
+		A2A9A1561BF500BB00F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataInboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.DataInboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataInbox.app/DataInbox";
+			};
+			name = Release;
+		};
+		A2A9A1581BF500BB00F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataInboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.DataInboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataInbox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2A9A1591BF500BB00F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataInboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCC.DataInboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataInbox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A9A1241BF500BB00F0527E /* Build configuration list for PBXProject "DataInbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A14F1BF500BB00F0527E /* Debug */,
+				A2A9A1501BF500BB00F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A9A1511BF500BB00F0527E /* Build configuration list for PBXNativeTarget "DataInbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A1521BF500BB00F0527E /* Debug */,
+				A2A9A1531BF500BB00F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A9A1541BF500BB00F0527E /* Build configuration list for PBXNativeTarget "DataInboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A1551BF500BB00F0527E /* Debug */,
+				A2A9A1561BF500BB00F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A9A1571BF500BB00F0527E /* Build configuration list for PBXNativeTarget "DataInboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A1581BF500BB00F0527E /* Debug */,
+				A2A9A1591BF500BB00F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A9A1211BF500BB00F0527E /* Project object */;
+}

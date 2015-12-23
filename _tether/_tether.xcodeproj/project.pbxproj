@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A9A0F31BF4FB5500F0527E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A0F21BF4FB5500F0527E /* AppDelegate.swift */; };
+		A2A9A0F51BF4FB5500F0527E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A0F41BF4FB5500F0527E /* ViewController.swift */; };
+		A2A9A0F81BF4FB5500F0527E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9A0F61BF4FB5500F0527E /* Main.storyboard */; };
+		A2A9A0FA1BF4FB5500F0527E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A9A0F91BF4FB5500F0527E /* Assets.xcassets */; };
+		A2A9A0FD1BF4FB5500F0527E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9A0FB1BF4FB5500F0527E /* LaunchScreen.storyboard */; };
+		A2A9A1081BF4FB5500F0527E /* _tetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A1071BF4FB5500F0527E /* _tetherTests.swift */; };
+		A2A9A1131BF4FB5500F0527E /* _tetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9A1121BF4FB5500F0527E /* _tetherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A9A1041BF4FB5500F0527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A9A0E71BF4FB5500F0527E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A9A0EE1BF4FB5500F0527E;
+			remoteInfo = _tether;
+		};
+		A2A9A10F1BF4FB5500F0527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A9A0E71BF4FB5500F0527E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A9A0EE1BF4FB5500F0527E;
+			remoteInfo = _tether;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A9A0EF1BF4FB5500F0527E /* _tether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _tether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9A0F21BF4FB5500F0527E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2A9A0F41BF4FB5500F0527E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2A9A0F71BF4FB5500F0527E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A9A0F91BF4FB5500F0527E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2A9A0FC1BF4FB5500F0527E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2A9A0FE1BF4FB5500F0527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9A1031BF4FB5500F0527E /* _tetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _tetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9A1071BF4FB5500F0527E /* _tetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _tetherTests.swift; sourceTree = "<group>"; };
+		A2A9A1091BF4FB5500F0527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9A10E1BF4FB5500F0527E /* _tetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _tetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9A1121BF4FB5500F0527E /* _tetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _tetherUITests.swift; sourceTree = "<group>"; };
+		A2A9A1141BF4FB5500F0527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A9A0EC1BF4FB5500F0527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A1001BF4FB5500F0527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A10B1BF4FB5500F0527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A9A0E61BF4FB5500F0527E = {
+			isa = PBXGroup;
+			children = (
+				A2A9A0F11BF4FB5500F0527E /* _tether */,
+				A2A9A1061BF4FB5500F0527E /* _tetherTests */,
+				A2A9A1111BF4FB5500F0527E /* _tetherUITests */,
+				A2A9A0F01BF4FB5500F0527E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A9A0F01BF4FB5500F0527E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A0EF1BF4FB5500F0527E /* _tether.app */,
+				A2A9A1031BF4FB5500F0527E /* _tetherTests.xctest */,
+				A2A9A10E1BF4FB5500F0527E /* _tetherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A9A0F11BF4FB5500F0527E /* _tether */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A0F21BF4FB5500F0527E /* AppDelegate.swift */,
+				A2A9A0F41BF4FB5500F0527E /* ViewController.swift */,
+				A2A9A0F61BF4FB5500F0527E /* Main.storyboard */,
+				A2A9A0F91BF4FB5500F0527E /* Assets.xcassets */,
+				A2A9A0FB1BF4FB5500F0527E /* LaunchScreen.storyboard */,
+				A2A9A0FE1BF4FB5500F0527E /* Info.plist */,
+			);
+			path = _tether;
+			sourceTree = "<group>";
+		};
+		A2A9A1061BF4FB5500F0527E /* _tetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A1071BF4FB5500F0527E /* _tetherTests.swift */,
+				A2A9A1091BF4FB5500F0527E /* Info.plist */,
+			);
+			path = _tetherTests;
+			sourceTree = "<group>";
+		};
+		A2A9A1111BF4FB5500F0527E /* _tetherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9A1121BF4FB5500F0527E /* _tetherUITests.swift */,
+				A2A9A1141BF4FB5500F0527E /* Info.plist */,
+			);
+			path = _tetherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A9A0EE1BF4FB5500F0527E /* _tether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A1171BF4FB5500F0527E /* Build configuration list for PBXNativeTarget "_tether" */;
+			buildPhases = (
+				A2A9A0EB1BF4FB5500F0527E /* Sources */,
+				A2A9A0EC1BF4FB5500F0527E /* Frameworks */,
+				A2A9A0ED1BF4FB5500F0527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _tether;
+			productName = _tether;
+			productReference = A2A9A0EF1BF4FB5500F0527E /* _tether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A9A1021BF4FB5500F0527E /* _tetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A11A1BF4FB5500F0527E /* Build configuration list for PBXNativeTarget "_tetherTests" */;
+			buildPhases = (
+				A2A9A0FF1BF4FB5500F0527E /* Sources */,
+				A2A9A1001BF4FB5500F0527E /* Frameworks */,
+				A2A9A1011BF4FB5500F0527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A9A1051BF4FB5500F0527E /* PBXTargetDependency */,
+			);
+			name = _tetherTests;
+			productName = _tetherTests;
+			productReference = A2A9A1031BF4FB5500F0527E /* _tetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A9A10D1BF4FB5500F0527E /* _tetherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A11D1BF4FB5500F0527E /* Build configuration list for PBXNativeTarget "_tetherUITests" */;
+			buildPhases = (
+				A2A9A10A1BF4FB5500F0527E /* Sources */,
+				A2A9A10B1BF4FB5500F0527E /* Frameworks */,
+				A2A9A10C1BF4FB5500F0527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A9A1101BF4FB5500F0527E /* PBXTargetDependency */,
+			);
+			name = _tetherUITests;
+			productName = _tetherUITests;
+			productReference = A2A9A10E1BF4FB5500F0527E /* _tetherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A9A0E71BF4FB5500F0527E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kelly Yamamoto";
+				TargetAttributes = {
+					A2A9A0EE1BF4FB5500F0527E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A2A9A1021BF4FB5500F0527E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A2A9A0EE1BF4FB5500F0527E;
+					};
+					A2A9A10D1BF4FB5500F0527E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A2A9A0EE1BF4FB5500F0527E;
+					};
+				};
+			};
+			buildConfigurationList = A2A9A0EA1BF4FB5500F0527E /* Build configuration list for PBXProject "_tether" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A9A0E61BF4FB5500F0527E;
+			productRefGroup = A2A9A0F01BF4FB5500F0527E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A9A0EE1BF4FB5500F0527E /* _tether */,
+				A2A9A1021BF4FB5500F0527E /* _tetherTests */,
+				A2A9A10D1BF4FB5500F0527E /* _tetherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A9A0ED1BF4FB5500F0527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A0FD1BF4FB5500F0527E /* LaunchScreen.storyboard in Resources */,
+				A2A9A0FA1BF4FB5500F0527E /* Assets.xcassets in Resources */,
+				A2A9A0F81BF4FB5500F0527E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A1011BF4FB5500F0527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A10C1BF4FB5500F0527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A9A0EB1BF4FB5500F0527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A0F51BF4FB5500F0527E /* ViewController.swift in Sources */,
+				A2A9A0F31BF4FB5500F0527E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A0FF1BF4FB5500F0527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A1081BF4FB5500F0527E /* _tetherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9A10A1BF4FB5500F0527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9A1131BF4FB5500F0527E /* _tetherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A9A1051BF4FB5500F0527E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A9A0EE1BF4FB5500F0527E /* _tether */;
+			targetProxy = A2A9A1041BF4FB5500F0527E /* PBXContainerItemProxy */;
+		};
+		A2A9A1101BF4FB5500F0527E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A9A0EE1BF4FB5500F0527E /* _tether */;
+			targetProxy = A2A9A10F1BF4FB5500F0527E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A9A0F61BF4FB5500F0527E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A9A0F71BF4FB5500F0527E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2A9A0FB1BF4FB5500F0527E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A9A0FC1BF4FB5500F0527E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A9A1151BF4FB5500F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2A9A1161BF4FB5500F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A9A1181BF4FB5500F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = _tether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TCC.-tether";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2A9A1191BF4FB5500F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = _tether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TCC.-tether";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2A9A11B1BF4FB5500F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _tetherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TCC.-tetherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_tether.app/_tether";
+			};
+			name = Debug;
+		};
+		A2A9A11C1BF4FB5500F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _tetherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TCC.-tetherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_tether.app/_tether";
+			};
+			name = Release;
+		};
+		A2A9A11E1BF4FB5500F0527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = _tetherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TCC.-tetherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = _tether;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2A9A11F1BF4FB5500F0527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = _tetherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TCC.-tetherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = _tether;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A9A0EA1BF4FB5500F0527E /* Build configuration list for PBXProject "_tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A1151BF4FB5500F0527E /* Debug */,
+				A2A9A1161BF4FB5500F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A9A1171BF4FB5500F0527E /* Build configuration list for PBXNativeTarget "_tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A1181BF4FB5500F0527E /* Debug */,
+				A2A9A1191BF4FB5500F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A9A11A1BF4FB5500F0527E /* Build configuration list for PBXNativeTarget "_tetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A11B1BF4FB5500F0527E /* Debug */,
+				A2A9A11C1BF4FB5500F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A9A11D1BF4FB5500F0527E /* Build configuration list for PBXNativeTarget "_tetherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9A11E1BF4FB5500F0527E /* Debug */,
+				A2A9A11F1BF4FB5500F0527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A9A0E71BF4FB5500F0527E /* Project object */;
+}
